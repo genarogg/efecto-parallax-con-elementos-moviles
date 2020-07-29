@@ -60,3 +60,13 @@ hr{
     margin:auto;
     box-shadow: 1px 1px 20px -2px black;
 }
+
+.content2{
+    transform: translateZ(.40px) scale(.5);
+    transform-origin: 50% 200%;
+}
+
+.content3{
+    transform: translateZ(.80px) scale(.2);
+    transform-origin: 44% 50%;
+}
