@@ -45,3 +45,18 @@ body{
     transform-origin: 100% 300%;
     margin:auto;
 }
+
+hr{
+    height: 4px;
+    background: #008ee6;
+    border:none;
+}
+
+.content2, .content3{
+    width: 600px;
+    background: rgb(51, 0 , 60);
+    color:white;
+    padding: 20px;
+    margin:auto;
+    box-shadow: 1px 1px 20px -2px black;
+}
