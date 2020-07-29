@@ -1,72 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-family: Lato;
-    height: 100%;
-    overflow: hidden;
+html {
+  font-family: Lato;
+  height: 100%;
+  overflow: hidden;
 }
 
-body{
-    perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
+body {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .slide,
-.slide2{
-    width: 100%;
-    height: 100vh;
-    z-index: 2;
-    font-size: 20px; 
+.slide2 {
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  font-size: 20px;
 }
 
-.slide{
-    background-image: url(../img/f5.jpg);
-    background-attachment: fixed;
-
+.slide {
+  background-image: url(../img/f5.jpg);
+  background-attachment: fixed;
 }
 
-.slide2{
-    background-image: url(../img/f1.jpg);
-
+.slide2 {
+  background-image: url(../img/f1.jpg);
 }
 
-.content{
-    width: 600px;
-    background: white;
-    padding: 20px;
-    transform: translate(.20px) scale(.6);
-    transform-origin: 100% 300%;
-    margin:auto;
+.content {
+  width: 600px;
+  background: white;
+  padding: 20px;
+  transform: translate(0.2px) scale(0.6);
+  transform-origin: 100% 300%;
+  margin: auto;
 }
 
-hr{
-    height: 4px;
-    background: #008ee6;
-    border:none;
+hr {
+  height: 4px;
+  background: #008ee6;
+  border: none;
 }
 
-.content2, .content3{
-    width: 600px;
-    background: rgb(51, 0 , 60);
-    color:white;
-    padding: 20px;
-    margin:auto;
-    box-shadow: 1px 1px 20px -2px black;
+.content2,
+.content3 {
+  width: 600px;
+  background: rgb(51, 0, 60);
+  color: white;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 1px 1px 20px -2px black;
 }
 
-.content2{
-    transform: translateZ(.40px) scale(.5);
-    transform-origin: 50% 200%;
+.content2 {
+  transform: translateZ(0.4px) scale(0.5);
+  transform-origin: 50% 200%;
 }
 
-.content3{
-    transform: translateZ(.80px) scale(.2);
-    transform-origin: 44% 50%;
+.content3 {
+  transform: translateZ(0.8px) scale(0.2);
+  transform-origin: 44% 50%;
 }
