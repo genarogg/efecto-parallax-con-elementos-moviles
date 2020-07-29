@@ -36,3 +36,12 @@ body{
     background-image: url(../img/f1.jpg);
 
 }
+
+.content{
+    width: 600px;
+    background: white;
+    padding: 20px;
+    transform: translate(.20px) scale(.6);
+    transform-origin: 100% 300%;
+    margin:auto;
+}
